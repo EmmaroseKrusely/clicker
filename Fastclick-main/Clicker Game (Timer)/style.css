@@ -1,0 +1,43 @@
+body {
+    background: url(images//graham-holtshausen-fUnfEz3VLv4-unsplash.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+/* .grid-container {
+    display: grid;
+    grid-column: 5;
+    grid-row: 5;
+} */
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi #202020;
+    border-radius: 50px;
+    background: white;
+    color: #202020;
+    cursor: pointer;
+    outline: none;
+}
+
+#timer {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
